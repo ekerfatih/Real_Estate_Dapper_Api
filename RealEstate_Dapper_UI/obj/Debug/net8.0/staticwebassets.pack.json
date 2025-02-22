@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\RealEstate_Dapper_UI.bsgx22hm79.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\budapest.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\budapest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\dresden.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\dresden.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lviv.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\lviv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lyon.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\lyon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\miami.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\miami.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\montenegro.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\montenegro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\rome.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\rome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\sofia.jpg",
+      "PackagePath": "staticwebassets\\cityimages\\sofia.jpg"
+    },
+    {
       "Id": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

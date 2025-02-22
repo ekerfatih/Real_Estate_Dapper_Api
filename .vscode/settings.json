@@ -1,0 +1,40 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_Api\\",
+            "color": "foldercolorizer.color_33ccff"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\",
+            "color": "foldercolorizer.color_33ff33"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_Api\\Dtos\\",
+            "color": "foldercolorizer.color_00cc33"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_Api\\Controllers\\",
+            "color": "foldercolorizer.color_cccc33"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_Api\\Repositories\\",
+            "color": "foldercolorizer.color_ff33ff"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_Api\\Program.cs\\",
+            "color": "foldercolorizer.color_eeeeee"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\Controllers\\",
+            "color": "foldercolorizer.color_6699ff"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\Views\\",
+            "color": "foldercolorizer.color_6666cc"
+        },
+        {
+            "folderPath": "Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\ViewComponents\\",
+            "color": "foldercolorizer.color_993333"
+        }
+    ]
+}

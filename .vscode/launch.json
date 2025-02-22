@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RealEstate_Dapper_Api",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/RealEstate_Dapper_Api/bin/Debug/net8.0/RealEstate_Dapper_Api.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/RealEstate_Dapper_Api",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "RealEstate_Dapper_UI",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/RealEstate_Dapper_UI/bin/Debug/net8.0/RealEstate_Dapper_UI.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/RealEstate_Dapper_UI",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Debug Both Projects",
+            "configurations": [
+                "RealEstate_Dapper_Api",
+                "RealEstate_Dapper_UI"
+            ]
+        }
+    ]
+}

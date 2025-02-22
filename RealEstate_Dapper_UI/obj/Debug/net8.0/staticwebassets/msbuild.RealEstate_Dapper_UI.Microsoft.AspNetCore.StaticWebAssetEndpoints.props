@@ -1,5 +1,101 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/budapest.8482qhtg5s.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\budapest.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8482qhtg5s"},{"Name":"integrity","Value":"sha256-aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/budapest.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"191366"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/budapest.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\budapest.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"191366"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/dresden.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\dresden.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5W2dksffeFp2Aom\u002BlsW50ZPvdi9ey50z88bk/mKOfEg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"818402"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225W2dksffeFp2Aom\u002BlsW50ZPvdi9ey50z88bk/mKOfEg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/dresden.ticieg9b32.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\dresden.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ticieg9b32"},{"Name":"integrity","Value":"sha256-5W2dksffeFp2Aom\u002BlsW50ZPvdi9ey50z88bk/mKOfEg="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/dresden.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"818402"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225W2dksffeFp2Aom\u002BlsW50ZPvdi9ey50z88bk/mKOfEg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/lviv.3gp71m6mi6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\lviv.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3gp71m6mi6"},{"Name":"integrity","Value":"sha256-kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp\u002BU="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/lviv.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"113290"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/lviv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\lviv.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp\u002BU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"113290"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/lyon.4h7wzcr7bm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\lyon.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4h7wzcr7bm"},{"Name":"integrity","Value":"sha256-2BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw\u002Bphx\u002B0hNyQ="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/lyon.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"93959"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw\u002Bphx\u002B0hNyQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/lyon.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\lyon.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw\u002Bphx\u002B0hNyQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"93959"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw\u002Bphx\u002B0hNyQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/miami.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\miami.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7D220CvAnMOvqH6oPVALE1lVVwa\u002ByQa1hRU25eflkng="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1697897"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227D220CvAnMOvqH6oPVALE1lVVwa\u002ByQa1hRU25eflkng=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/miami.wlc5fx21ub.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\miami.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wlc5fx21ub"},{"Name":"integrity","Value":"sha256-7D220CvAnMOvqH6oPVALE1lVVwa\u002ByQa1hRU25eflkng="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/miami.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1697897"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227D220CvAnMOvqH6oPVALE1lVVwa\u002ByQa1hRU25eflkng=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/montenegro.gvfurhioxb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\montenegro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gvfurhioxb"},{"Name":"integrity","Value":"sha256-JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/montenegro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"495161"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/montenegro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\montenegro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"495161"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/rome.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\rome.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/9VNVk\u002BNv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"463767"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/9VNVk\u002BNv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/rome.jvlprkd8hn.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\rome.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jvlprkd8hn"},{"Name":"integrity","Value":"sha256-/9VNVk\u002BNv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/rome.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"463767"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/9VNVk\u002BNv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/sofia.8mm321cxx9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\sofia.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8mm321cxx9"},{"Name":"integrity","Value":"sha256-QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk="},{"Name":"label","Value":"_content/RealEstate_Dapper_UI/cityimages/sofia.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1869402"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/cityimages/sofia.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cityimages\sofia.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1869402"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 11:57:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RealEstate_Dapper_UI/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

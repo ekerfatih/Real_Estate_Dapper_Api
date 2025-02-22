@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "FmjnWmfEIcPaUi7F1z3SmYFCeFb2UbGaaeoofpkODFI=",
+  "Hash": "a9mx4bEJ8FiI7yuzoSBZaRQ78ZEeqJsmpQJI2Iu2dZA=",
   "Source": "RealEstate_Dapper_UI",
   "BasePath": "_content/RealEstate_Dapper_UI",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_Api\\RealEstate_Dapper_Api.csproj",
+      "Version": 2,
+      "Source": "RealEstate_Dapper_Api",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "RealEstate_Dapper_UI\\wwwroot",
@@ -57,6 +69,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RealEstate_Dapper_UI.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\budapest.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/budapest#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8482qhtg5s",
+      "Integrity": "aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\budapest.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\dresden.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/dresden#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ticieg9b32",
+      "Integrity": "5W2dksffeFp2Aom+lsW50ZPvdi9ey50z88bk/mKOfEg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\dresden.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lviv.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/lviv#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3gp71m6mi6",
+      "Integrity": "kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\lviv.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lyon.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/lyon#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4h7wzcr7bm",
+      "Integrity": "2BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw+phx+0hNyQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\lyon.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\miami.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/miami#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wlc5fx21ub",
+      "Integrity": "7D220CvAnMOvqH6oPVALE1lVVwa+yQa1hRU25eflkng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\miami.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\montenegro.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/montenegro#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gvfurhioxb",
+      "Integrity": "JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\montenegro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\rome.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/rome#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jvlprkd8hn",
+      "Integrity": "/9VNVk+Nv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\rome.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\sofia.jpg",
+      "SourceId": "RealEstate_Dapper_UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\",
+      "BasePath": "_content/RealEstate_Dapper_UI",
+      "RelativePath": "cityimages/sofia#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8mm321cxx9",
+      "Integrity": "QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cityimages\\sofia.jpg"
     },
     {
       "Identity": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\css\\site.css",
@@ -5226,6 +5406,662 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "cityimages/budapest.8482qhtg5s.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\budapest.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8482qhtg5s"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/budapest.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/budapest.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\budapest.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aFwhqgoan/r97Qn/5kRXst8zf3v326qwkgO0Z652Hqk="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/dresden.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\dresden.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "818402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5W2dksffeFp2Aom+lsW50ZPvdi9ey50z88bk/mKOfEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5W2dksffeFp2Aom+lsW50ZPvdi9ey50z88bk/mKOfEg="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/dresden.ticieg9b32.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\dresden.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "818402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5W2dksffeFp2Aom+lsW50ZPvdi9ey50z88bk/mKOfEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ticieg9b32"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/dresden.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5W2dksffeFp2Aom+lsW50ZPvdi9ey50z88bk/mKOfEg="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/lviv.3gp71m6mi6.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lviv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gp71m6mi6"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/lviv.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp+U="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/lviv.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lviv.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kxXHCHtZOeUJc1hy0vBvy31spc2NWoEhdopXAV0wp+U="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/lyon.4h7wzcr7bm.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lyon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw+phx+0hNyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4h7wzcr7bm"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/lyon.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw+phx+0hNyQ="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/lyon.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\lyon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw+phx+0hNyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2BD1k0VLvH9njU5Rgv32TnlDrBV5x9NNw+phx+0hNyQ="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/miami.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\miami.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1697897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7D220CvAnMOvqH6oPVALE1lVVwa+yQa1hRU25eflkng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7D220CvAnMOvqH6oPVALE1lVVwa+yQa1hRU25eflkng="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/miami.wlc5fx21ub.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\miami.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1697897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7D220CvAnMOvqH6oPVALE1lVVwa+yQa1hRU25eflkng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wlc5fx21ub"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/miami.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7D220CvAnMOvqH6oPVALE1lVVwa+yQa1hRU25eflkng="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/montenegro.gvfurhioxb.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\montenegro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "495161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gvfurhioxb"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/montenegro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/montenegro.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\montenegro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "495161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JFWvQ9luv4jJepSzqGntiU6F8vvpzStpn4B7agoXlPQ="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/rome.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\rome.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "463767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/9VNVk+Nv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/9VNVk+Nv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/rome.jvlprkd8hn.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\rome.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "463767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/9VNVk+Nv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jvlprkd8hn"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/rome.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/9VNVk+Nv2kJVHr3H0NWLvDSDZe8pgYvhSO/Fm1NfGA="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/sofia.8mm321cxx9.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\sofia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1869402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8mm321cxx9"
+        },
+        {
+          "Name": "label",
+          "Value": "cityimages/sofia.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk="
+        }
+      ]
+    },
+    {
+      "Route": "cityimages/sofia.jpg",
+      "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\cityimages\\sofia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1869402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 11:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QHuQVEu2PuIvjICeCaKG53yujyAtdKE8C/g6crdcInk="
+        }
+      ]
+    },
     {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\fatih\\Github Repo\\Real_Estate_Dapper_Api\\RealEstate_Dapper_UI\\wwwroot\\css\\site.css",
