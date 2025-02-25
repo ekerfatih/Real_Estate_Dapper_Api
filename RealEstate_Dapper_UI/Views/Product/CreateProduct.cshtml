@@ -1,0 +1,64 @@
+@model CreateProductDto
+
+@{
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Yeni İlan Ekleme Sayfası</h6>
+                <form asp-controller="Product" asp-action="CreateProduct" method="post">
+
+                    <div>
+                        <label asp-for="title" class="form-label">İlan Başlığı</label>
+                        <input asp-for="title" type="text" class="form-control">
+                        <br>
+                    </div>
+
+                    <div>
+                        <label asp-for="city" class="form-label">Şehir</label>
+                        <input asp-for="city" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="district" class="form-label">İlçe</label>
+                        <input asp-for="district" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="categoryId" class="form-label">Kategori</label>
+                        @* <input asp-for="categoryName" type="text" class="form-control"> *@
+                        <select asp-items="@ViewBag.SelectListItems" class="form-control bg-white" ></select>
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="price" class="form-label">Fiyat</label>
+                        <input asp-for="price" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="Type" class="form-label">Tür</label>
+                        <input asp-for="Type" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="coverImage" class="form-label">Kapak Fotoğrafı</label>
+                        <input asp-for="coverImage" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="Address" class="form-label">İlan Açık Adresi</label>
+                        <textarea asp-for="Address" type="text" class="form-control" rows="5"></textarea>
+                        <br>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">İlanı Kaydet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+@model UpdateEmployeeDto
+
+@{
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Personel Güncelleme Sayfası</h6>
+                <form href="/Employee/UpdateEmployee" method="post">
+                <input type="hidden" asp-for="EmployeeId">
+
+                    <div>
+                        <label asp-for="EmployeeName" class="form-label">Personel Adı</label>
+                        <input asp-for="EmployeeName" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="EmployeeTitle" class="form-label">Personel Ünvanı</label>
+                        <input asp-for="EmployeeTitle" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="EmployeeMail" class="form-label">Maili</label>
+                        <input asp-for="EmployeeMail" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="PhoneNumber" class="form-label">Telefon Numarası</label>
+                        <input asp-for="PhoneNumber" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="ImageUrl" class="form-label">Image/Url</label>
+                        <input asp-for="ImageUrl" type="text" class="form-control">
+                        <br>
+                    </div>
+                    <div>
+                        <label asp-for="Status" class="form-label">Durumu</label>
+                        <input asp-for="Status" type="text" class="form-control">
+                        <br>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Personeli Kaydet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

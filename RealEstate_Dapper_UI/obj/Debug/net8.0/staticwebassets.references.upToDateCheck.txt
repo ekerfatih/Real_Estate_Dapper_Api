@@ -1,0 +1,5 @@
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\obj\Debug\net8.0\staticwebassets.build.json
