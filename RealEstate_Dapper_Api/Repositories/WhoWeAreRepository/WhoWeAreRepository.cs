@@ -32,7 +32,7 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreRepository {
             }
         }
 
-        public async Task<List<ResultWhoWeAreDetailDto>> GetAllWhoWeAreDetailAsync() {
+        public async Task<List<ResultWhoWeAreDetailDto>> GetAllWhoWeAreDetail() {
             string query = "Select * from WhoWeAreDetail";
             using (var connection = _context.CreateConnection()) {
                 var values = await connection.QueryAsync<ResultWhoWeAreDetailDto>(query);
@@ -50,8 +50,13 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreRepository {
             }
         }
 
-        public void UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDto updateWhoWeAreDetailDto) {
-            string query = "Update WhoWeAreDetail Set Title = @title, SubTitle = @subtitle, Description1 = @description1, Description2 = @description2 where WhoWeAreDetailId=@whoWeAreDetailId";
+        public async void UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDto updateWhoWeAreDetailDto) {
+            string query = @"Update WhoWeAreDetail Set
+            Title = @title,
+            SubTitle = @subtitle,
+            Description1 = @description1,
+            Description2 = @description2
+                                  where WhoWeAreDetailId=@whoWeAreDetailId";
 
             DynamicParameters parameters = new();
             parameters.Add("@whoWeAreDetailId", updateWhoWeAreDetailDto.WhoWeAreDetailId);
@@ -60,7 +65,7 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreRepository {
             parameters.Add("@description1", updateWhoWeAreDetailDto.Description1);
             parameters.Add("@description2", updateWhoWeAreDetailDto.Description2);
             using (var connection = _context.CreateConnection()) {
-                connection.ExecuteAsync(query, parameters);
+                await connection.ExecuteAsync(query, parameters);
             }
         }
     }

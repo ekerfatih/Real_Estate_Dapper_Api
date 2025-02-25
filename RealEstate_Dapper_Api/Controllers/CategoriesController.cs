@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using RealEstate_Dapper_Api.Dtos.CategoryDtos;
 using RealEstate_Dapper_Api.Repositories.CategoryRepository;
 
-namespace RealEstate_Dapper_UI.Controllers {
+namespace RealEstate_Dapper_Api.Controllers {
 
     [Route("api/[controller]")]
     [ApiController]

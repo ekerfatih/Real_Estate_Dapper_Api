@@ -30,13 +30,13 @@ namespace RealEstate_Dapper_Api.Controllers {
             return Ok("BottomGrid Başarıyla Güncellendi");
         }
 
-        [HttpDelete("DeleteBottomGrid")]
+        [HttpDelete("DeleteBottomGrid/{id}")]
 
         public IActionResult DeleteBottomGrid(int id) {
             _bottomGridRepository.DeleteBottomGrid(id);
             return Ok();
         }
-        [HttpGet("(GetBottomGridById/{id}")]
+        [HttpGet("GetBottomGridById/{id}")]
         public async Task<IActionResult> GetByIdBottomGrid(int id) {
             var bottomGridValue = await _bottomGridRepository.GetByIdBottomGrid(id);
             return Ok(bottomGridValue);
