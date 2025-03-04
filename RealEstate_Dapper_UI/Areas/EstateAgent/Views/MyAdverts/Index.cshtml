@@ -1,0 +1,58 @@
+﻿@model List<RealEstate_Dapper_UI.Dtos.ProductDtos.ResultProductAdvertListWithCategoryByEmployeeDto>
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Areas/EstateAgent/Views/LayoutEstateAgent/Index.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">İlan Listesi</h6>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">İlan Başlığı</th>
+                            <th scope="col">Kategori</th>
+                            <th scope="col">Fiyat</th>
+                            <th scope="col">Tür</th>
+                            <th scope="col">Sil</th>
+                            <th scope="col">Güncelle</th>
+                            <th scope="col">Sitede Gör</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @{
+                            int value = @Model.Count();
+                        }
+
+                        @for (int i = 0; i < value; i++)
+                        {
+                            <tr>
+                                <th scope="row">@(i + 1)</th>
+                                <td>@Model[i].title</td>
+                                <td>@Model[i].categoryName</td>
+                                <td>@Model[i].price</td>
+                                <td>@Model[i].type</td>
+                                <td><a asp-controller="Product" asp-action="DeleteProduct"
+                                       asp-route-id="@Model[i].productId" class="btn btn-outline-danger">Sil</a></td>
+                                <td><a asp-controller="Product" asp-action="UpdateProduct"
+                                       asp-route-id="@Model[i].productId" class="btn btn-outline-success">Güncelle</a>
+                                </td>
+                                <td><a asp-controller="Product" asp-action="ProductDetail"
+                                       asp-route-id="@Model[i].productId" class="btn btn-outline-primary">Sitede Gör</a>
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                    <a asp-action="CreateProduct" asp-controller="Product" class="btn btn-outline-info">Yeni İlan
+                        Girişi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

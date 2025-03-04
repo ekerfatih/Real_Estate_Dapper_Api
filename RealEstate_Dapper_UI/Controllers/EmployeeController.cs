@@ -1,11 +1,12 @@
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RealEstate_Dapper_UI.Dtos.EmployeeDtos;
 
 namespace RealEstate_Dapper_UI.Controllers {
 
-
+    [Authorize]
     public class EmployeeController : Controller {
 
 
@@ -17,12 +18,16 @@ namespace RealEstate_Dapper_UI.Controllers {
         }
 
         public async Task<IActionResult> Index() {
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("http://localhost:5225/api/Employee/ListEmployee");
-            if (responseMessage.IsSuccessStatusCode) {
-                var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var result = JsonConvert.DeserializeObject<List<ResultEmployeeDto>>(jsonData);
-                return View(result);
+
+            var token = User.Claims.FirstOrDefault(x => x.Type == "realestatetoken")?.Value;
+            if (token != null) {
+                var client = _httpClientFactory.CreateClient();
+                var responseMessage = await client.GetAsync("http://localhost:5225/api/Employee/ListEmployee");
+                if (responseMessage.IsSuccessStatusCode) {
+                    var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                    var result = JsonConvert.DeserializeObject<List<ResultEmployeeDto>>(jsonData);
+                    return View(result);
+                }
             }
             return View();
         }

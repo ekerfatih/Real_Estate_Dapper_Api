@@ -1,3 +1,4 @@
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -39,9 +40,15 @@ namespace RealEstate_Dapper_UI.Controllers {
                                                        }).ToList();
                 ViewBag.SelectListItems = categoryValues;
             }
-
-
-
+            return View();
+        }
+        [HttpGet]
+        public async Task<IActionResult> UpdateDealOfTheDayStatus(int id) {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage  =await client.GetAsync($"http://localhost:5225/api/Products/UpdateDealOfTheDayStatus/{id}");
+            if (responseMessage.IsSuccessStatusCode) {
+                return RedirectToAction("Index");
+            }
             return View();
         }
     }

@@ -19,7 +19,7 @@ namespace RealEstate_Dapper_Api.Controllers {
             return Ok(values);
         }
 
-        [HttpDelete("DeletePopularLocation")]
+        [HttpDelete("DeletePopularLocation/{id}")]
         public IActionResult DeletePopularLocation(int id) {
             _popularLocationRepository.DeletePopularLocation(id);
             return Ok("popularLocationBaşarıyla silindi");

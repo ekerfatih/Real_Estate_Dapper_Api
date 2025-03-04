@@ -6,6 +6,6 @@ namespace RealEstate_Dapper_Api.Dtos.ProductDtos {
         public string? City { get; set; }
         public string? District { get; set; }
         public int ProductCategory { get; set; }
-
+        public bool DealOfTheDay { get; set; }
     }
 }
