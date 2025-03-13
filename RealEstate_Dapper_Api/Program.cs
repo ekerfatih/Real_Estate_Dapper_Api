@@ -1,16 +1,6 @@
+using RealEstate_Dapper_Api.Containers;
 using RealEstate_Dapper_Api.Hubs;
 using RealEstate_Dapper_Api.Models.DapperContext;
-using RealEstate_Dapper_Api.Repositories.BottomGridRepository;
-using RealEstate_Dapper_Api.Repositories.CategoryRepository;
-using RealEstate_Dapper_Api.Repositories.ContactRepository;
-using RealEstate_Dapper_Api.Repositories.EmployeeRepository;
-using RealEstate_Dapper_Api.Repositories.PopularLocationsRepository;
-using RealEstate_Dapper_Api.Repositories.ProductRepository;
-using RealEstate_Dapper_Api.Repositories.ServiceRepository;
-using RealEstate_Dapper_Api.Repositories.StatisticsRepository;
-using RealEstate_Dapper_Api.Repositories.TestimonialRepository;
-using RealEstate_Dapper_Api.Repositories.ToDoListRepository;
-using RealEstate_Dapper_Api.Repositories.WhoWeAreRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,19 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 //------------------------------------------------------
 
 //1
-builder.Services.AddTransient<Context>();
-builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
-builder.Services.AddTransient<IProductRepository, ProductRepository>();
-builder.Services.AddTransient<IWhoWeAreRepository, WhoWeAreRepository>();
-builder.Services.AddTransient<IServiceRepository, ServiceRepository>();
-builder.Services.AddTransient<IBottomGridRepository, BottomGridRepository>();
-builder.Services.AddTransient<IPopularLocationsRepository, PopularLocationsRepository>();
-builder.Services.AddTransient<ITestimonialRepository, TestimonialRepository>();
-builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
-builder.Services.AddTransient<IStatisticsRepository, StatisticsRepository>();
-builder.Services.AddTransient<IContactRepository,ContactRepository>();
-builder.Services.AddTransient<IToDoListRepository,ToDoListRepository>();
-
+//Extensions.ContainerDependencies(builder.Services);
+builder.Services.ContainerDependencies();
 builder.Services.AddCors(opt => {
     opt.AddPolicy("CorsPolicy", builder => {
         builder.AllowAnyHeader()
@@ -44,7 +23,6 @@ builder.Services.AddCors(opt => {
 });
 builder.Services.AddHttpClient();
 builder.Services.AddSignalR();
-
 //------------------------------------------------------
 
 

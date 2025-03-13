@@ -239,3 +239,4 @@ C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEstate_Dapper_UI.pdb
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEstate_Dapper_UI.genruntimeconfig.cache
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\ref\RealEstate_Dapper_UI.dll
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

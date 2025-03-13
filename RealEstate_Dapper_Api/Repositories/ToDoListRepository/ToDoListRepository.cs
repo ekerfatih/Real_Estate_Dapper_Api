@@ -1,4 +1,4 @@
-﻿using Dapper;
+using Dapper;
 using RealEstate_Dapper_Api.Dtos.ToDoListDtos;
 using RealEstate_Dapper_Api.Models.DapperContext;
 
@@ -16,15 +16,15 @@ public class ToDoListRepository(Context context) : IToDoListRepository {
         }
     }
 
-    public void CreateToDoList(CreateToDoListDto createToDoListDto) {
+    public Task CreateToDoList(CreateToDoListDto createToDoListDto) {
         throw new NotImplementedException();
     }
 
-    public void DeleteToDoList(int id) {
+    public Task DeleteToDoList(int id) {
         throw new NotImplementedException();
     }
 
-    public void UpdateToDoList(UpdateToDoListDto updateToDoListDto) {
+    public Task UpdateToDoList(UpdateToDoListDto updateToDoListDto) {
         throw new NotImplementedException();
     }
 

@@ -1,6 +1,6 @@
 ﻿@model List<RealEstate_Dapper_UI.Dtos.ProductDtos.ResultProductAdvertListWithCategoryByEmployeeDto>
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = "Pasif İlanlar";
     Layout = "~/Areas/EstateAgent/Views/LayoutEstateAgent/Index.cshtml";
 }
 
@@ -19,6 +19,7 @@
                             <th scope="col">Fiyat</th>
                             <th scope="col">Tür</th>
                             <th scope="col">Sil</th>
+                            <th scope="col">Aktif Yap</th>
                             <th scope="col">Güncelle</th>
                             <th scope="col">Sitede Gör</th>
                         </tr>
@@ -36,14 +37,10 @@
                                 <td>@Model[i].categoryName</td>
                                 <td>@Model[i].price</td>
                                 <td>@Model[i].type</td>
-                                <td><a asp-controller="Product" asp-action="DeleteProduct"
-                                       asp-route-id="@Model[i].productId" class="btn btn-outline-danger">Sil</a></td>
-                                <td><a asp-controller="Product" asp-action="UpdateProduct"
-                                       asp-route-id="@Model[i].productId" class="btn btn-outline-success">Güncelle</a>
-                                </td>
-                                <td><a asp-controller="Product" asp-action="ProductDetail"
-                                       asp-route-id="@Model[i].productId" class="btn btn-outline-primary">Sitede Gör</a>
-                                </td>
+                                <td><a asp-controller="Product" asp-action="DeleteProduct" asp-route-id="@Model[i].productId" class="btn btn-outline-danger">Sil</a></td>
+                                <td><a asp-controller="Product" asp-action="DeleteProduct" asp-route-id="@Model[i].productId" class="btn btn-primary">Aktif Yap</a></td>
+                                <td><a asp-controller="Product" asp-action="UpdateProduct" asp-route-id="@Model[i].productId" class="btn btn-outline-success">Güncelle</a></td>
+                                <td><a asp-controller="Product" asp-action="ProductDetail" asp-route-id="@Model[i].productId" class="btn btn-outline-primary">Sitede Gör</a></td>
                             </tr>
                         }
                         </tbody>

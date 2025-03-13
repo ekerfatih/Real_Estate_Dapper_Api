@@ -14,30 +14,30 @@
                 <form asp-controller="Product" asp-action="CreateProduct" method="post">
 
                     <div>
-                        <label asp-for="title" class="form-label">İlan Başlığı</label>
-                        <input asp-for="title" type="text" class="form-control">
+                        <label asp-for="Title" class="form-label">İlan Başlığı</label>
+                        <input asp-for="Title" type="text" class="form-control">
                         <br>
                     </div>
 
                     <div>
-                        <label asp-for="city" class="form-label">Şehir</label>
-                        <input asp-for="city" type="text" class="form-control">
+                        <label asp-for="City" class="form-label">Şehir</label>
+                        <input asp-for="City" type="text" class="form-control">
                         <br>
                     </div>
                     <div>
-                        <label asp-for="district" class="form-label">İlçe</label>
-                        <input asp-for="district" type="text" class="form-control">
+                        <label asp-for="District" class="form-label">İlçe</label>
+                        <input asp-for="District" type="text" class="form-control">
                         <br>
                     </div>
                     <div>
-                        <label asp-for="categoryId" class="form-label">Kategori</label>
+                        <label asp-for="ProductCategory" class="form-label">Kategori</label>
                         @* <input asp-for="categoryName" type="text" class="form-control"> *@
                         <select asp-items="@ViewBag.SelectListItems" class="form-control bg-white" ></select>
                         <br>
                     </div>
                     <div>
-                        <label asp-for="price" class="form-label">Fiyat</label>
-                        <input asp-for="price" type="text" class="form-control">
+                        <label asp-for="Price" class="form-label">Fiyat</label>
+                        <input asp-for="Price" type="text" class="form-control">
                         <br>
                     </div>
                     <div>
@@ -46,8 +46,8 @@
                         <br>
                     </div>
                     <div>
-                        <label asp-for="coverImage" class="form-label">Kapak Fotoğrafı</label>
-                        <input asp-for="coverImage" type="text" class="form-control">
+                        <label asp-for="CoverImage" class="form-label">Kapak Fotoğrafı</label>
+                        <input asp-for="CoverImage" type="text" class="form-control">
                         <br>
                     </div>
                     <div>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Analizi - Kasko Teklifi</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        .container { max-width: 500px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+        .hidden { display: none; }
+        button { padding: 10px 15px; margin: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Risk Analizi: Aracın Ne Kadar Güvende?</h2>
+
+        <form id="riskForm">
+            <label>1. Aracını nerede park ediyorsun?</label><br>
+            <input type="radio" name="park" value="5"> Sokakta<br>
+            <input type="radio" name="park" value="3"> Açık otopark<br>
+            <input type="radio" name="park" value="1"> Kapalı garaj<br><br>
+
+            <label>2. Günlük ortalama kaç km yapıyorsun?</label><br>
+            <input type="radio" name="km" value="5"> 50 km ve üzeri<br>
+            <input type="radio" name="km" value="3"> 20-50 km arası<br>
+            <input type="radio" name="km" value="1"> 20 km altı<br><br>
+
+            <label>3. Son 3 yıl içinde kazaya karıştın mı?</label><br>
+            <input type="radio" name="kaza" value="5"> Evet<br>
+            <input type="radio" name="kaza" value="2"> Hayır<br><br>
+
+            <label>4. Yaşadığın bölgede araç hırsızlığı sık görülüyor mu?</label><br>
+            <input type="radio" name="hirsizlik" value="5"> Evet<br>
+            <input type="radio" name="hirsizlik" value="2"> Hayır<br><br>
+
+            <button type="button" onclick="hesaplaRisk()">Risk Analizini Gör</button>
+        </form>
+
+        <div id="sonuc" class="hidden">
+            <h3>Sonuç:</h3>
+            <p id="riskMesaji"></p>
+            <p id="kaskoTeklifi"></p>
+            <button onclick="yenidenBasla()">Tekrar Dene</button>
+        </div>
+    </div>
+
+    <script>
+        function hesaplaRisk() {
+            let toplamPuan = 0;
+            let sorular = ["park", "km", "kaza", "hirsizlik"];
+
+            for (let i = 0; i < sorular.length; i++) {
+                let eleman = document.querySelector('input[name="' + sorular[i] + '"]:checked');
+                if (eleman) toplamPuan += parseInt(eleman.value);
+            }
+
+            let riskMesaji = "";
+            let kaskoTeklifi = "";
+
+            if (toplamPuan <= 7) {
+                riskMesaji = "Risk seviyen DÜŞÜK. Ama yine de küçük bir kasko paketiyle kendini güvenceye alabilirsin.";
+                kaskoTeklifi = "✅ Ekonomik Mini Kasko Paketi: Ayda sadece 199 TL!";
+            } else if (toplamPuan <= 14) {
+                riskMesaji = "Risk seviyen ORTA. Kasko yaptırarak olası zararları önleyebilirsin.";
+                kaskoTeklifi = "✅ Standart Kasko Paketi: Ayda 299 TL'ye tam koruma!";
+            } else {
+                riskMesaji = "Risk seviyen YÜKSEK! Her an büyük bir hasarla karşılaşabilirsin. Kasko şart!";
+                kaskoTeklifi = "🚨 En Kapsamlı Kasko: Sınırsız onarım, yol yardımı ve çarpışma teminatı sadece 399 TL!";
+            }
+
+            document.getElementById("riskMesaji").innerText = riskMesaji;
+            document.getElementById("kaskoTeklifi").innerText = kaskoTeklifi;
+            document.getElementById("riskForm").classList.add("hidden");
+            document.getElementById("sonuc").classList.remove("hidden");
+        }
+
+        function yenidenBasla() {
+            document.getElementById("riskForm").reset();
+            document.getElementById("riskForm").classList.remove("hidden");
+            document.getElementById("sonuc").classList.add("hidden");
+        }
+    </script>
+
+</body>
+</html>

@@ -11,7 +11,7 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreRepository {
         public WhoWeAreRepository(Context context) {
             _context = context;
         }
-        public async void CreateWhoWeAreDetail(CreateWhoWeAreDetailDto createWhoWeAreDetailDto) {
+        public async Task CreateWhoWeAreDetail(CreateWhoWeAreDetailDto createWhoWeAreDetailDto) {
             string query = "insert into WhoWeAreDetail (Title,Subtitle,Description1,Description2) values (@title,@subtitle,@description1,@description2)";
             var parameters = new DynamicParameters();
             parameters.Add("@title", createWhoWeAreDetailDto.Title);
@@ -23,7 +23,7 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreRepository {
             }
         }
 
-        public async void DeleteWhoWeAreDetail(int id) {
+        public async Task DeleteWhoWeAreDetail(int id) {
             string query = "Delete from WhoWeAreDetail where WhoWeAreDetailId = @whoWeAreDetailId";
             DynamicParameters parameters = new DynamicParameters();
             parameters.Add("@whoWeAreDetailId", id);
@@ -50,7 +50,7 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreRepository {
             }
         }
 
-        public async void UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDto updateWhoWeAreDetailDto) {
+        public async Task UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDto updateWhoWeAreDetailDto) {
             string query = @"Update WhoWeAreDetail Set
             Title = @title,
             SubTitle = @subtitle,

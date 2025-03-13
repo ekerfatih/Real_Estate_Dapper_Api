@@ -264,3 +264,4 @@ C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\bin\Debu
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

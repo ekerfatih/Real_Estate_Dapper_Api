@@ -1,4 +1,4 @@
-﻿using Dapper;
+using Dapper;
 using RealEstate_Dapper_Api.Dtos.ContactDtos;
 using RealEstate_Dapper_Api.Models.DapperContext;
 
@@ -20,11 +20,11 @@ public class ContactRepository(Context context) : IContactRepository {
         }
     }
 
-    public void CreateContact(CreateContactDto createContactDto) {
+    public Task CreateContact(CreateContactDto createContactDto) {
         throw new NotImplementedException();
     }
 
-    public void DeleteContact(int id) {
+    public Task DeleteContact(int id) {
         throw new NotImplementedException();
     }
 
