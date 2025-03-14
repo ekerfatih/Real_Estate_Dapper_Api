@@ -22,7 +22,7 @@ namespace RealEstate_Dapper_Api.Repositories.EstateAgentRepository.DashboardRepo
         }
 
         public async Task<int> ProductCountByEmployeeId(int id) {
-            var sql = "Select COUNT(*) from Product where EmployeeID = @employeeId";
+            var sql = "Select COUNT(*) from Product where AppUserId = @employeeId";
             DynamicParameters parameters = new();
             parameters.Add("@employeeId",id);
             using (var connection = _context.CreateConnection()) {
@@ -32,7 +32,7 @@ namespace RealEstate_Dapper_Api.Repositories.EstateAgentRepository.DashboardRepo
         }
 
         public async Task<int> ProductCountByStatusFalse(int id) {
-            var sql = "Select COUNT(*) from Product where EmployeeID = @employeeId and ProductStatus=0";
+            var sql = "Select COUNT(*) from Product where AppUserId = @employeeId and ProductStatus=0";
             DynamicParameters parameters = new();
             parameters.Add("@employeeId",id);
             using (var connection = _context.CreateConnection()) {
@@ -42,7 +42,7 @@ namespace RealEstate_Dapper_Api.Repositories.EstateAgentRepository.DashboardRepo
         }
 
         public async Task<int> ProductCountByStatusTrue(int id) {
-            var sql = "Select COUNT(*) from Product where EmployeeID = @employeeId and ProductStatus=1";
+            var sql = "Select COUNT(*) from Product where AppUserId = @employeeId and ProductStatus=1";
             DynamicParameters parameters = new();
             parameters.Add("@employeeId",id);
             using (var connection = _context.CreateConnection()) {

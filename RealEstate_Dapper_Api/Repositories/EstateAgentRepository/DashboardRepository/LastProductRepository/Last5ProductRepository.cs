@@ -22,7 +22,7 @@ namespace RealEstate_Dapper_Api.Repositories.EstateAgentRepository.DashboardRepo
                 Product.AdvertisementDate
                 FROM Product
                 INNER JOIN Category ON Category.CategoryID = Product.ProductCategory
-                where EmployeeID = @employeeId
+                where AppUserId = @employeeId
                 order by ProductId desc";
             DynamicParameters parameters = new();
             parameters.Add("@employeeId", id);

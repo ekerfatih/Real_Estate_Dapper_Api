@@ -62,7 +62,7 @@ namespace RealEstate_Dapper_Api.Repositories.StatisticsRepository {
         public async Task<string> EmployeeNameByMaxProductCount() {
             var sql =
                 @"Select top 1 EmployeeName from Product
-    inner join Employee on Product.EmployeeID = Employee.EmployeeId
+    inner join Employee on Product.AppUserId = Employee.EmployeeId
                           group by EmployeeName
                           order by count(*) desc";
             using (var connection = _context.CreateConnection()) {

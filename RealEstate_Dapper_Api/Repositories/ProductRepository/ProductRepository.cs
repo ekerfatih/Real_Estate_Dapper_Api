@@ -28,7 +28,7 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository {
             using (var connection = _context.CreateConnection()) {
                 var values = await connection.QueryAsync<ResultProductAdvertListWithCategoryByEmployeeDto>(query, parameters);
                 return values.ToList();
-            }
+            } 
         }
 
         public async Task<List<ResultProductAdvertListWithCategoryByEmployeeDto>> GetProductAdvertListByEmployeeByFalse(int id) {
@@ -128,7 +128,13 @@ namespace RealEstate_Dapper_Api.Repositories.ProductRepository {
 
         public async Task<List<ResultProductWithSearchListDto>> ResultProductWithSearchList(string searchKeyValue, int propertyCategoryId, string city) {
             string query =
-                "Select * from Product where Title like @searchKeyValue and ProductCategory=@propertyCategoryId and City = @city";
+                @"SELECT Product.*, Category.CategoryName 
+                    FROM Product 
+                    JOIN Category ON Product.ProductCategory = Category.CategoryId 
+                    WHERE Product.Title LIKE @searchKeyValue
+                    AND Product.ProductCategory = @propertyCategoryId 
+                    AND Product.City = @city
+                    ";
             DynamicParameters parameters = new();
             parameters.Add("@searchKeyValue","%"+ searchKeyValue+"%" );
             parameters.Add("@propertyCategoryId", propertyCategoryId);
