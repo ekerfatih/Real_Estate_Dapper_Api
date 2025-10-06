@@ -227,12 +227,6 @@ C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets\msbuild.RealEstate_Dapper_UI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets\msbuild.RealEstate_Dapper_UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets\msbuild.build.RealEstate_Dapper_UI.props
-C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RealEstate_Dapper_UI.props
-C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RealEstate_Dapper_UI.props
-C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEsta.9BB3EB07.Up2Date
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEstate_Dapper_UI.dll
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\refint\RealEstate_Dapper_UI.dll
@@ -240,3 +234,4 @@ C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\RealEstate_Dapper_UI.genruntimeconfig.cache
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\ref\RealEstate_Dapper_UI.dll
 C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\fatih\Github Repo\Real_Estate_Dapper_Api\RealEstate_Dapper_UI\obj\Debug\net8.0\staticwebassets.build.json.cache
